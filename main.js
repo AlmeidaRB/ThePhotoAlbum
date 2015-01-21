@@ -11,7 +11,7 @@ $("a").click(function (event) {
   $(this).closest("li").addClass("activeNav");
   $(relatedClass).siblings().removeClass("active");
   $(relatedClass).addClass('active');
-  
+  $("nav").addClass('active');
 
   console.log(relatedClass);
 

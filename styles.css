@@ -92,9 +92,9 @@ article img {
   display: inline-block;
 }
 
-/**nav {
+nav {
   display: none;
-}**/
+}
 
 /**ACTIVE**/
 .active {
