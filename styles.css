@@ -1,0 +1,110 @@
+/**LAYOUT**/
+html {
+  background-color: purple;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Amatic SC', cursive;
+}
+
+header {
+  background-color: #505050;
+  height: 100%;
+  width: 20%;
+}
+
+header, footer {
+  display: inline-block;
+  width: 100%
+  background: #000;
+}
+
+section {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+section {
+  background-color: lightgray;
+  width: 79%;
+}
+
+/**END LAYOUT**/
+
+/**NAV**/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav li {
+  display: inline-grid;
+  margin-left: 10px;
+  height: 100%;
+}
+
+nav a {
+  font-size: 2.5em;
+  display:block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  height: 100%;
+}
+
+nav a:hover {
+
+  background: white;
+  color: black;
+}
+
+/**END NAV**/
+
+/**ARTICLE-ALBUMS**/
+article {
+  display:none;
+}
+article img {
+  width: 300px;
+  height: 300px;
+}
+
+/**END ARTICLE-ALBUMS**/
+
+
+/**HOME**/
+
+.home {
+  display: none;
+}
+
+.home img {
+  width: 300px;
+  height: 300px;
+}
+.home p {
+  display: inline-block;
+}
+
+/**nav {
+  display: none;
+}**/
+
+/**ACTIVE**/
+.active {
+  display: block;
+}
+.activeNav {
+  background-color:white;
+
+}
+.activeNav a {
+  color: black;
+}
+/**END ACTIVE**/
