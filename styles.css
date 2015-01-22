@@ -1,4 +1,4 @@
-/**LAYOUT**/
+/**LAYOUT, h1, h2**/
 html {
   background-color: purple;
 }
@@ -32,8 +32,13 @@ section {
   background-color: lightgray;
   width: 79%;
 }
+h1, h2 {
+  text-align: left;
+  font-size: 40px;
+}
 
-/**END LAYOUT**/
+
+/**END LAYOUT, h1, h2**/
 
 /**NAV**/
 
@@ -73,6 +78,7 @@ article {
 article img {
   width: 300px;
   height: 300px;
+  margin: 15px;
 }
 
 /**END ARTICLE-ALBUMS**/
@@ -95,6 +101,21 @@ article img {
 nav {
   display: none;
 }
+
+
+/**ENLARGED VIEW**/
+.enlarge {
+  display: none;
+}
+.enlarge img {
+  border: 4px solid black;
+  width:700px;
+  height:700px;
+  margin-left: 25%;
+  margin-top: 0px;
+}
+
+/**END ENLARGED VIEW**/
 
 /**ACTIVE**/
 .active {
